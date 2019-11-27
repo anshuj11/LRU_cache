@@ -32,6 +32,6 @@ Cons: Implementation slightly complicated with a hash map pointing to a linked l
        If the hashing function is inefficient, it will degrade the lookup to O(n)
 
 To Do:
-Test accessing same element twice, thereby making it newer in the cache
-Test corner cases - some are done but more needed
-Write rspec tests for sanity checks
+* Test accessing same element twice, thereby making it newer in the cache
+* Test corner cases - some are done but more needed
+* Write rspec tests for sanity checks
