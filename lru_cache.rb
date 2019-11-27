@@ -1,3 +1,8 @@
+# Using an array of fixed size 
+# Pros: Simple implementation
+# Cons: Inefficient lookup and deletion - O(n) where n is the size of the cache
+
+
 class LRUCache
     def initialize(size)
          @size=size
@@ -49,8 +54,7 @@ class LRUCache
         end    
     end
 
-    private
-    # helper methods go here!
+   
 
   end
 

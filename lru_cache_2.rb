@@ -1,3 +1,9 @@
+
+# Using a hash map of fixed size and a linked list
+# Pros: Constant time lookup, inertion and deletion on average - O(1)
+# Cons: Implementation slightly complicated with a hash map pointing to a linked list
+#        If the hashing function is inefficient, it will degrade the lookup to O(n)
+
 class Node
     attr_accessor :val, :next, :prev
     def initialize(val)
