@@ -27,7 +27,7 @@ Add to the cache
 Retrieve from cache
 >c.get("test01");
 
-Pros: Constant time lookup, inertion and deletion on average - O(1)
+Pros: Constant time lookup, insertion and deletion on average - O(1)
 Cons: Implementation slightly complicated with a hash map pointing to a linked list
        If the hashing function is inefficient, it will degrade the lookup to O(n)
 
